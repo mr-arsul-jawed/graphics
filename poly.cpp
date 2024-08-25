@@ -1,10 +1,10 @@
 #include<graphics.h>
-//#define HEIGHT 800
-//#define WIDTH 800
+#define HEIGHT 800
+#define WIDTH 800
 
 int main()
 {
-    //initwindow(WIDTH,HEIGHT,"shape demo");
+    initwindow(WIDTH,HEIGHT,"shape demo");
 
     int gd= DETECT,gm;
     int arr[] = {320,150,
